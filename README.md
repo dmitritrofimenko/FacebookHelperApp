@@ -1,9 +1,9 @@
 SOCIAL APP DEMO
 
-To run the app, open terminal/cmd:
-
-npm install
-npm start
+To run the app: 
+open terminal/cmd.
+npm install.
+npm start.
   
 Npm start should open a browser window with login page of the app.
 
