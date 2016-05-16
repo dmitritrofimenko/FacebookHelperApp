@@ -10,7 +10,7 @@
     "typings": "typings",
     "postinstall": "typings install"
   },
-  "keywords": [],
+  "keywords": ["angular2","node"],
   "author": "Ajaypal Cheema",
   "license": "ISC",
   "dependencies": {
