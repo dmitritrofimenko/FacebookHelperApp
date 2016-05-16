@@ -1,9 +1,13 @@
 SOCIAL APP DEMO
 
-To run the app: 
-open terminal/cmd.
-npm install.
-npm start.
+1) Open a command prompt in the project's root directory
+
+2) Type: `npm install`
+    This installs the dependencies as defined in the package.json file.
+    
+3) Type: `npm start`
+    This launches the TypeScript compiler (tsc) to compile the application and wait for changes. 
+    It also starts the lite-server and launches the browser to run the application.
   
 Npm start should open a browser window with login page of the app.
 
