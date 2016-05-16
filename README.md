@@ -15,18 +15,3 @@ Along with working with the convoluted Facebook SDK.
 
 I have used Material Design CSS for the UI.  
 
-============
-UX Concerns:
-============
-As several dependencies like the facebook API integration are hastily ported over
-and major angular functionality is still in beta, only basic routing by login and logout buttons is implemented.
-
-Refreshing '/home' page breaks the functionality as the 'FB' object gets detached from window.
-
-Needing to pollute the namespace itself is a necessary compromise to make this work, 
-due to the novelty of TS and Angular2, and lack of official SDK support at this time.
-
-For proper experience: login and logout, and then login again. 
-Should see the profile image and user name.
-
-Alerts are used as toastr has not been updated for angular2, and available OSS repos are hacky.
