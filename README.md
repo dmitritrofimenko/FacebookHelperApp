@@ -1,6 +1,7 @@
 SOCIAL APP DEMO
 
 To run the app, open terminal/cmd:
+
   npm install
   npm start
   
