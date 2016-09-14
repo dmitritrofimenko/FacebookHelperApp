@@ -3,8 +3,11 @@ import {FBConnector} from '../FB/fbConnector.component';
 import {FBSDK1} from '../FB/fbSDK';
 import {Response} from 'angular2/http';
 import {Router,RouteParams, ROUTER_DIRECTIVES} from "angular2/router";
+
+
 @Component({
   templateUrl:'app/login/login.html'
+
 })
 
 export class LoginComponent implements OnInit{

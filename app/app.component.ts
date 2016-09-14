@@ -12,7 +12,7 @@ import {HomeComponent} from './home/home.component';
         <nav class='nav-wrapper light-blue darken-4'>
                 <span class='center brand-logo'>{{pageTitle}}</span>
         </nav>
-        <div class='container'>
+        <div >
             <router-outlet></router-outlet>
         </div>
      </div>
@@ -28,5 +28,5 @@ import {HomeComponent} from './home/home.component';
 ])
 
 export class AppComponent{
-  pageTitle: string='Social-APP-DEMO';
+  pageTitle: string='Facebook API Helper';
 }
