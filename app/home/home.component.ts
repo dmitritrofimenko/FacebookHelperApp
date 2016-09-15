@@ -2,10 +2,11 @@ import {Component, OnInit} from 'angular2/core';
 import {FBSDK1} from '../FB/fbSDK';
 import {Router, ROUTER_DIRECTIVES} from "angular2/router";
 import {LeftSideMenuComponent} from '../left-side-menu/left-side-menu.component';
+import {LeadsComponent} from '../leads/leads.component';
 
 @Component({
   templateUrl:'app/home/home.html',
-  directives:[LeftSideMenuComponent]
+  directives:[LeftSideMenuComponent, LeadsComponent]
 })
 
 export class HomeComponent implements OnInit{
